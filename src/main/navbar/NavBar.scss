@@ -1,0 +1,22 @@
+.navbar{
+    height: 5%;
+    border-bottom: 2px solid #ededed;
+    display: flex;
+}
+.logo{
+    width: 20%;
+    .appLogo{
+        width: 60%;
+        padding: 12px;
+    }
+}
+.navItems{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .item{
+        padding: 12px;
+        margin-right: 1%;
+    }
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays the cardetails from cardetails API 1`] = `
+<DocumentFragment>
+  <div
+    class="cardetails"
+  >
+    <div
+      class="loading"
+      data-testid="loading"
+      id="loading"
+    >
+      Loading...
+    </div>
+  </div>
+</DocumentFragment>
+`;

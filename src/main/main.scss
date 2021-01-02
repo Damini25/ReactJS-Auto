@@ -1,0 +1,39 @@
+
+.content{
+    // height: 800px;
+    display: flex;
+}
+.footer{
+    height: 5%;
+    border-top: 2px solid #ededed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font32{
+    font-size: 32px;
+}
+.font18{
+    font-size: 18px;
+    
+}
+.fontbold{
+    font-weight: bold;
+}
+.font14{
+    font-size: 14px;
+}
+.font12{
+    font-size: 12px;
+}
+.ctacolor{
+    color: #EA7F28;
+}
+ .loading{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 20%;
+    font-size: 32px;
+}

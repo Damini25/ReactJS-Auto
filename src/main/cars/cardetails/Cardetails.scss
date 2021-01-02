@@ -1,0 +1,38 @@
+.cardetails {
+    height: 90%;
+    .desc {
+        display: flex;
+        margin: 5%;
+        height: 40%;
+        .desc1 {
+            width: 50%;
+            padding: 0 2%;
+        }
+        .desc2 {
+            width: 30%;
+            padding: 3%;
+            height: 50%;
+            border: 1px solid #ededed;
+            .btndiv{
+                text-align: right;
+                margin: 10% 0;
+            }
+            .savebtn{
+                width: 35%;
+                height: 32px;
+                background: #EA7F28;
+                border-radius: 2px;
+                color: white;
+                border: none;
+            }
+        }
+    }
+    .loading{
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5%;
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,34 @@
+.filter-main{
+    width: 30%;
+    height: 100%;
+    padding: 18px;
+    .subdiv{
+        height: 40%;
+        border: 2px solid #ededed;
+        border-radius: 2px;
+        padding: 0 24px;
+        .control{
+            padding: 12px 0px;
+        }
+        label{
+            font-size: 12px;
+        }
+        select{
+            width: 100%;
+            height: 40px;
+            margin-top: 7px;
+            border-color: #ededed;
+        }
+        .btndiv{
+            text-align: right;
+            margin: 10% 0;
+        }
+        .filterbtn{
+            width: 30%;
+            height: 32px;
+            background: #EA7F28;
+            color: white;
+            border: none;
+        }
+    }
+}

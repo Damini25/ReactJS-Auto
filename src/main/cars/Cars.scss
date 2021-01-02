@@ -1,0 +1,42 @@
+.cars-main {
+    width: 70%;
+    padding: 18px;
+    height: 90%;
+}
+.features {
+    border: 1px solid #ededed;
+    display: flex;
+    margin-bottom: 2%;
+    border-radius: 2px;
+    .carimg {
+        width: 20%;
+        display: flex;
+        border: 1px solid #ededed;
+        /* height: 100%; */
+        margin: 12px;
+        .picture{
+            width: 80%;
+            padding: 10%;
+        }
+    }
+    .details {
+        width: 80%;
+        margin: 12px;
+        padding-left: 3%;
+        p {
+            margin: 0px;
+            margin-bottom: 2%;
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+    .MuiPaginationItem-textPrimary.Mui-selected{
+        background-color: #EA7F28;
+    }
+}
